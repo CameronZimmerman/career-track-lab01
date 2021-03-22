@@ -1,6 +1,3 @@
-const copyAndPush = (array, item) => {
-  array.push(item);
-  return array;
-};
+const copyAndPush = (array, item) => [...array, item];
 
 module.exports = copyAndPush;
